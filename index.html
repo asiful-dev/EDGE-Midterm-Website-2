@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positivus</title>
+
+    <link rel="shortcut icon" href="desktop/logo-big.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="max-w-[90rem] mx-auto">
+
+    <header class="pt-[2rem] px-[1.25rem] lg:px-[6.25rem]">
+
+        <!-- navbar starts -->
+        <nav class="flex flex-row justify-between items-center">
+            <div class="logo">
+                <img src="desktop/logo-big.png" alt="">
+            </div>
+
+            <!-- Burger Menu for mobile -->
+            <div class="dropdown dropdown-end md:hidden">
+                <div tabindex="0" role="button" class="btn m-1"><img src="desktop/Burger_menu.png" alt=""></div>
+                <ul tabindex="0"
+                    class="dropdown-content menu bg-[var(--dark)] rounded-box z-[1] w-52 p-2 shadow text-[var(--green)]">
+                    <li><a>About us</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Use Cases</a></li>
+                    <li><a>Pricing</a></li>
+                    <li><a>Blog</a></li>
+
+                </ul>
+            </div>
+            <!-- Burger menu for mobile ends -->
+
+            <!-- nav menu for large devices -->
+            <nav class="hidden md:flex flex-row gap-x-[2.5rem] items-center">
+                <ul class="flex flex-row gap-x-[2.5rem]">
+                    <li><a>About us</a></li>
+                    <li><a>Services</a></li>
+                    <li><a>Use Cases</a></li>
+                    <li><a>Pricing</a></li>
+                    <li><a>Blog</a></li>
+                </ul>
+                <button class="btn btn-lg btn-outline text-[var(--dark)] text-[1.25rem]">Request a quote</button>
+            </nav>
+            <!-- nav menu for large devices ends -->
+        </nav>
+
+        <!-- navbar ends -->
+
+        
+
+    </header>
+
+
+</body>
+
+</html>
