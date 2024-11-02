@@ -7,3 +7,72 @@
     --dark: #191A23;
     --gray: #F3F3F3;
 }
+
+/* Scrolling animations */
+@keyframes scrollLeft {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes scrollRight {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+/* Style for group-1 scrolling from left to right */
+.scroll-left {
+    animation: scrollLeft 25s linear infinite;
+}
+
+/* Style for group-2 scrolling from right to left */
+.scroll-right {
+    animation: scrollRight 25s linear infinite;
+}
+
+.sponsors-mobile .group-1 img , .group-2 img{
+    max-width: 7.75rem;
+}
+.sponsors-mobile .group-1 img , .group-2 img{
+    filter: grayscale(100%);
+}
+
+.sponsors-desktop img{
+    filter: grayscale(100%);
+}
+/* @keyframes slide-left {
+    0%, 100% {
+      transform: translateX(100%);
+    }
+    50% {
+      transform: translateX(-100%);
+    }
+  }
+  
+
+  @keyframes slide-right {
+    0%, 100% {
+      transform: translateX(-100%);
+    }
+    50% {
+      transform: translateX(100%);
+    }
+  }
+
+.sponsors-mobile {
+    width: 100%;
+}
+.sponsors-mobile .group-1 {
+    animation: slide-left 15s ease-in-out infinite;
+}
+
+.sponsors-mobile .group-2 {
+    animation: slide-right 10s ease-in-out infinite;
+} */
