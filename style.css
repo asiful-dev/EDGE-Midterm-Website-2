@@ -27,6 +27,9 @@
     }
 }
 
+.box-shadow{
+    box-shadow: 0px 5px 0px 0px #191A23;
+}
 /* Style for group-1 scrolling from left to right */
 .scroll-left {
     animation: scrollLeft 25s linear infinite;
@@ -47,6 +50,8 @@
 .sponsors-desktop img{
     filter: grayscale(100%);
 }
+
+
 /* @keyframes slide-left {
     0%, 100% {
       transform: translateX(100%);
