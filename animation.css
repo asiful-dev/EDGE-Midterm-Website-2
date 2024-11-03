@@ -1,0 +1,130 @@
+
+
+@keyframes scrollLeft {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes scrollRight {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+.scroll-left {
+    animation: scrollLeft 25s linear infinite;
+}
+
+
+.scroll-right {
+    animation: scrollRight 25s linear infinite;
+}
+
+.case-study-desktop .joined-cards .card {
+    transition: transform 0.3s ease, border-radius 0.3s ease;
+   
+    transform: scale(1);
+    border-radius: 1rem;
+}
+
+.case-study-desktop .joined-cards .card:hover {
+   
+    transform: scale(1.05);
+   
+    border-radius: 1.5rem;
+}
+
+.case-study-desktop .joined-cards .card .card-body {
+    transition: background-color 0.3s ease, padding 0.3s ease;
+    padding: 1.5rem;
+}
+
+.case-study-desktop .joined-cards .card:hover .card-body {
+   
+    background-color: var(--light-dark);
+    padding: 2rem;
+}
+
+
+
+.sponsors-desktop .sponsor-img {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 0.8;
+}
+
+
+.sponsors-desktop .sponsor-img:hover {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+
+.sponsors-desktop .sponsor-img:nth-child(1) {
+    animation: float 3s ease-in-out infinite;
+    animation-delay: 0s;
+}
+.sponsors-desktop .sponsor-img:nth-child(2) {
+    animation: float 3s ease-in-out infinite;
+    animation-delay: 0.2s;
+}
+.sponsors-desktop .sponsor-img:nth-child(3) {
+    animation: float 3s ease-in-out infinite;
+    animation-delay: 0.4s;
+}
+.sponsors-desktop .sponsor-img:nth-child(4) {
+    animation: float 3s ease-in-out infinite;
+    animation-delay: 0.6s;
+}
+.sponsors-desktop .sponsor-img:nth-child(5) {
+    animation: float 3s ease-in-out infinite;
+    animation-delay: 0.8s;
+}
+.sponsors-desktop .sponsor-img:nth-child(6) {
+    animation: float 3s ease-in-out infinite;
+    animation-delay: 1s;
+}
+
+
+.logo img {
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.logo:hover img {
+    transform: scale(1.1);
+}
+
+.social-icons div {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+
+.social-icons div:hover {
+    transform: scale(1.2) rotate(15deg);
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
