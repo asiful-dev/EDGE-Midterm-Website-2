@@ -8,7 +8,7 @@ Welcome to **Positivus**! This **fully responsive landing page** is designed to 
 
 ## Screenshot
 
-![Positivus Landing Page Screenshot](./desktop/ss.png)
+![Positivus Landing Page Screenshot](/desktop/ss.png)
 
 > *A glimpse of the Positivus experience!*
 
