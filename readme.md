@@ -17,6 +17,7 @@ Welcome to **Positivus**! This **fully responsive landing page** is designed to 
 - **🌍 Fully Responsive**: Seamlessly adapts to all screen sizes for an optimal viewing experience.
 - **🎨 Elegant & Modern Design**: Crafted meticulously from the original Figma design, ensuring visual harmony and style.
 - **✨ Interactive Elements**: Engage your audience with smooth, intuitive interactions that enhance user experience.
+- **🚀 Custom Animations**: Experience a dynamic feel with **custom animations** that bring the page to life, making every interaction exciting and engaging!
 
 ## Technologies Used
 
