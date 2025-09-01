@@ -1,6 +1,6 @@
 # Positivus - Engaging Responsive Landing Page
 
-[**✨ Explore the Live Website**](https://awfulasiful.github.io/EDGE-Midterm-Website-2/)
+[**✨ Explore the Live Website**](https://asiful-dev.github.io/EDGE-Midterm-Website-2/)
 
 ## Overview
 
